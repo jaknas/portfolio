@@ -1,4 +1,5 @@
 # basic portfolio
+link: https://jakubnaskreski.netlify.com/
 
 v1 upload
 
@@ -9,3 +10,9 @@ v2 upload TO BE DONE
 
 - about section
 - skills section
+
+v3 upload TO BE DONE
+- rwd
+- contact
+- animations
+- etc
