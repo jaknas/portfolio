@@ -1,4 +1,4 @@
-# basic portfolio
+# portfolio
 link: https://jakubnaskreski.netlify.com/
 
 v1 upload
