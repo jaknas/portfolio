@@ -1,5 +1,5 @@
 # portfolio
-link: https://jakubnaskreski.netlify.com/
+Link: https://jakubnaskreski.netlify.com/
 
 v1 upload
 
