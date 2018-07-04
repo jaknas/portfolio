@@ -8,56 +8,157 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
     crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet">
   <title>Portfolio</title>
 </head>
 
 <body>
 
+  <nav>
+    <div class="menu-icon">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <div class="menu">
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+  </nav>
+
+
+  <header class="header--image" id="home">
+
+
+    <h1 class="header--heading1">Hi, I'm
+      <span class="bold">Jakub Naskręski</span>
+    </h1>
+
+    <h3 class="header--heading3">An ambitious, young
+      <span class="bold">front-end developer</span> with a drive to learn. </h3>
+    <a href="#projects" class="header--button">View my work ➜
+    </a>
+  </header>
   <main class="container">
-    <nav>
-      <div class="menu-icon">
-        <i class="fas fa-bars"></i>
-      </div>
+    <section id="about">
+      <div class="about--me">
+        <h1 id="about--header">
+          <span class="bold">About me</span>
+        </h1>
+        <div id="about--grid">
+          <img src="me2.jpg" id="about--img" class="grayscale">
+          <p id="about--text1" class="about--text">I'm a 19 year old, self-taught front-end web developer. I'm looking for a Wrocław based company which could help
+            me kickstart my career and help me with developing my skills.</p>
 
-      <div class="menu">
-        <ul>
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-    </nav>
+          <!-- <p id="about--text2" class="about--text">First I started with Python, but without real goal, I've decided to focus on school for that moment.</p> -->
+
+          <p id="about--text3" class="about--text">When the school season was coming to an end, I picked up a Web Development course to see what it's really about.
+            I was amazed how much I can do with just a few lines of code. This was a moment, where I finally decided what
+            I want to do in the future. And that started the grind which I'm genuinely excited about.</p>
+
+          <p id="about--text4" class="about--text">I can code and have hands-on knowledge in:
+            <span class="bold">HTML5, CSS3, JavaScript(ES6+), React,</span> Node.js, GIT, MongoDB, Webpack, NPM, jQuery, Bootstrap 4.
+          </p>
+
+          <p id="about--text5" class="about--text">What I'm focused now on is React, and in the future I'd love to create native apps, and get familiar with GraphQL.</p>
+
+          <p id="about--text6" class="about--text">Outside tech-world my hobbies and things I'm interested in are powerlifting, fashion, and sports.</p>
 
 
-    <header class="header--image">
-
-      <!-- <nav class="navbar">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav> -->
-
-      <h1>Hi, I'm
-        <span class="bold">Jakub Naskręski</span>
-      </h1>
-
-      <h3>An ambitious, young
-        <span class="bold">front-end developer</span> with a drive to learn. </h3>
-    </header>
-    <section class="projects">
-      <div>
-        XD
+        </div>
       </div>
     </section>
+    <section id="projects">
+      <h1 id="projects--header">
+        <span class="bold">My projects</span>
+      </h1>
+
+      <div class="projects--grid">
+        <img src="mockup1.png" alt="face recognition app" class="projects--img" id="mock1">
+        <div class="projects--group">
+          <p id="desc1">App which finds face on external link provided by user, then draws a box. Front-End built using React. Used tachyons
+            for quick styling. Connected with Clarifai API.
+          </p>
+          <div class="projects--links">
+            <a href="https://github.com/kleyu/faceRecognition-React" class="projects--link" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://facerecognition-kleyu.netlify.com/" class="projects--link" target="_blank">
+              <i class="fas fa-external-link-square-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <img src="mockup2.png" alt="react chat app" class="projects--img" id="mock2">
+        <div class="projects--group">
+          <p id="desc2">React based chat app, utilizes CSS Grid and is connected with Pusher API.</p>
+          <div class="projects--links">
+            <a href="https://github.com/kleyu/reactChat" class="projects--link" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://reactchat.netlify.com/" class="projects--link" target="_blank">
+              <i class="fas fa-external-link-square-alt"></i>
+            </a>
+          </div>
+        </div>
+
+
+        <img src="mockup3.png" alt="travel site" id="mock3" class="projects--img">
+
+        <div class="projects--group">
+          <p id="desc3">Travel Agency website built with Materialize.css framework.</p>
+          <div class="projects--links">
+            <a href="https://github.com/kleyu/kleyu.github.io/tree/master/travelville" class="projects--link" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://kleyu.github.io/travelville/" class="projects--link" target="_blank">
+              <i class="fas fa-external-link-square-alt"></i>
+            </a>
+          </div>
+        </div>
+        </a>
+        <img src="mockup4.png" alt="react robo search" class="projects--img" id="mock4">
+        <div class="projects--group">
+          <p id="desc4">Very simple React App, uses basic search-filter, also uses external API to fetch data. Second branch on github
+            has implemented Redux.</p>
+          <div class="projects--links">
+            <a href="https://github.com/kleyu/roboFriends" class="projects--link" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://robofriends-kleyu.netlify.com/" class="projects--link" target="_blank">
+              <i class="fas fa-external-link-square-alt"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact">
+      <h1 id="contact--header">
+        <span class="bold">Contact me</span>
+      </h1>
+      <div class="contact--links">
+        <a href="https://github.com/kleyu" class="contact--atag">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/jakub-naskr%C4%99ski-262175165/" class="contact--atag">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="mailto:jakub.naskreski@gmail.com" class="contact--atag">
+          <i class="fas fa-at"></i>
+        </a>
+
+      </div>
+    </footer>
   </main>
 </body>
 
