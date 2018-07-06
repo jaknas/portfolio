@@ -13,7 +13,6 @@ v2 upload DONE
 
 - about section
 - skills section
-<<<<<<< HEAD
 - contact section
 - projects section
 
@@ -31,9 +30,3 @@ v4 upload TBD
 - do a portfolio code overhaul
 =======
 
-v3 upload TO BE DONE
-- rwd
-- contact
-- animations
-- etc
->>>>>>> 90764cc6eb59958091e918a95dae1317dff35691
