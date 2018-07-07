@@ -27,5 +27,10 @@ v3 upload DONE
 v4 upload TBD
 
 - do a portfolio code overhaul
+<<<<<<< HEAD
 - re-implement navbar
 - (replace pre-last one)
+=======
+=======
+
+>>>>>>> 93afdccff61f554ad95be5681b2b7691b3afe445
