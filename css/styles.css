@@ -21,7 +21,6 @@ body {
 	font-weight: 300;
 	letter-spacing: 0.01em;
 	line-height: 1.6;
-	font-family: "Open Sans", sans-serif;
 	overflow-x: hidden;
 	font-family: "Raleway", "Open Sans", sans-serif;
 	scroll-behavior: smooth;
@@ -173,7 +172,6 @@ a {
 .about--grid {
 	display: grid;
 	grid-template-columns: 30% 1fr;
-	/* grid-template-columns: repeat(auto-fit, minmax(5%, 45%)); */
 	grid-template-areas:
 		"img text1"
 		"img text2"
@@ -257,6 +255,8 @@ img.grayscale:hover {
 .projects--img:hover {
 	animation: in-img 1s ease-in-out;
 }
+
+/* divide img's and text into ID's to attach it to according grid-area */
 
 #mock1 {
 	grid-area: mock1;
@@ -359,7 +359,6 @@ img.grayscale:hover {
 /* Large desktop */
 @media (min-width: 979px) and (max-width: 1200px) {
 	.about--grid {
-		/* grid-gap: em; */
 		grid-template-columns: 45% 1fr;
 	}
 	.projects--img {
