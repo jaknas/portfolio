@@ -183,7 +183,7 @@ a {
 	align-items: center;
 	line-height: 1.8em;
 }
-
+/* colored picture on hover */
 img.grayscale {
 	filter: gray; /* IE6-9 */
 	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
