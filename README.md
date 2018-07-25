@@ -1,10 +1,7 @@
 # portfolio
 
 Link: https://jakubnaskreski.netlify.com/
-
-add:
-`smooth scroll scroll reveal`
-
+===
 v1 upload DONE
 
 - homepage
