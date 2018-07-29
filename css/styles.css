@@ -36,11 +36,10 @@ h6 {
 	font-weight: 300;
 	letter-spacing: -0.1rem;
 	margin-bottom: 2rem;
-	margin-top: 0;
 }
 
 h1 {
-	font-size: 4.6rem;
+	font-size: 4.5rem;
 	line-height: 1.2;
 	letter-spacing: 0.03rem;
 	z-index: 1;
@@ -240,6 +239,7 @@ img.grayscale:hover {
 		"mock1 desc1"
 		"mock2 desc2"
 		"mock3 desc3"
+		"mock6 desc6"
 		"mock4 desc4"
 		"mock5 desc5";
 	align-items: center;
@@ -253,9 +253,9 @@ img.grayscale:hover {
 	height: auto;
 	margin-bottom: 5rem;
 }
-.projects--img:hover {
+/* .projects--img:hover {
 	animation: in-img 1s ease-in-out;
-}
+} */
 
 /* divide img's and text into ID's to attach it to according grid-area */
 
@@ -274,6 +274,9 @@ img.grayscale:hover {
 #mock5 {
 	grid-area: mock5;
 }
+#mock6 {
+	grid-area: mock6;
+}
 
 #desc1 {
 	grid-area: desc1;
@@ -289,6 +292,9 @@ img.grayscale:hover {
 }
 #desc5 {
 	grid-area: desc5;
+}
+#desc6 {
+	grid-area: desc6;
 }
 
 .projects--link {
@@ -387,11 +393,12 @@ img.grayscale:hover {
 			"mock1 desc1"
 			"mock2 desc2"
 			"mock3 desc3"
+			"mock6 desc6"
 			"mock4 desc4"
 			"mock5 desc5";
 		align-items: center;
 		justify-items: center;
-		grid-gap: 0em;
+		grid-gap: 1em;
 	}
 	.projects--img {
 		width: 22em;
@@ -409,8 +416,12 @@ img.grayscale:hover {
 			"desc2"
 			"mock3"
 			"desc3"
+			"mock6"
+			"desc6"
 			"mock4"
-			"desc4";
+			"desc4"
+			"mock5"
+			"desc5";
 		align-items: center;
 		justify-items: center;
 		grid-gap: 0em;
@@ -421,7 +432,7 @@ img.grayscale:hover {
 		margin-bottom: 1em;
 	}
 	#projects--header {
-		padding: 1em 0;
+		padding-top: 1.5em;
 	}
 	.projects--link {
 		margin-bottom: 3em;
@@ -454,6 +465,8 @@ img.grayscale:hover {
 			"desc2"
 			"mock3"
 			"desc3"
+			"mock6"
+			"desc6"
 			"mock4"
 			"desc4"
 			"mock5"
@@ -475,6 +488,10 @@ img.grayscale:hover {
 	}
 	#contact--header {
 		padding-top: 0.3em;
+	}
+
+	h1 {
+		font-size: 4rem;
 	}
 }
 
@@ -536,11 +553,8 @@ img.grayscale:hover {
 	0% {
 		-webkit-transform: scale(1);
 	}
-	50% {
-		-webkit-transform: scale(1.2);
-	}
 	100% {
-		transform: scale(1);
+		transform: scale(1.1);
 	}
 }
 
