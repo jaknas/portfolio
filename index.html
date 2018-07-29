@@ -6,12 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description" content="Junior Front-End Developer looking for a job, Wroclaw - Jakub Naskreski">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preload" href="css/styles.css" as="style" onload="this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="global.min.css">
+  </noscript>
   <link rel='shortcut icon' type='image/x-icon' href='./favicon.ico' />
   <title>Portfolio📌| Jakub Naskręski </title>
+
 </head>
 
 <body>
+
   <header class="header--image" id="home">
     <h1 class="header--heading1">
       Hi
@@ -108,7 +113,7 @@
         <img src="images/mockup6.png" alt="react quote generator" class="projects--img" id="mock6">
         <div class="projects--group">
           <p id="desc6">React based random quote generator, has implemented fetching from API. Designed with material-ui React library.
-            </p>
+          </p>
           <div class="projects--links">
             <a href="https://github.com/kleyu/randomQuoteGenerator" class="projects--link" target="_blank" rel="noopener">
               <i class="icon-github"></i>
