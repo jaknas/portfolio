@@ -1,5 +1,5 @@
 :root {
-	--white: #fbfbff;
+	--white: #fafafa;
 }
 
 *,
@@ -105,7 +105,7 @@ p {
 	width: 80vw;
 }
 .header--heading3 {
-	padding: 0.5em;
+	padding: 0.2em;
 	text-align: center;
 	width: 80vw;
 }
@@ -127,7 +127,7 @@ a {
 
 .header--button:hover {
 	background-color: #d6d6db;
-	transition: 0.5s;
+	transition: all 0.5s;
 }
 /* ABOUT SECTION */
 .about {
@@ -253,10 +253,6 @@ img.grayscale:hover {
 	height: auto;
 	margin-bottom: 5rem;
 }
-/* .projects--img:hover {
-	animation: in-img 1s ease-in-out;
-} */
-
 /* divide img's and text into ID's to attach it to according grid-area */
 
 #mock1 {
@@ -530,7 +526,7 @@ img.grayscale:hover {
 
 @keyframes in {
 	from {
-		-webkit-transform: scale(1.2);
+		-webkit-transform: scale(1);
 	}
 	to {
 		-webkit-transform: scale(1);
