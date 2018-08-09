@@ -100,12 +100,15 @@ p {
 }
 
 .header--heading1 {
-	padding: 0.2em;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
 	text-align: center;
 	width: 80vw;
+	margin-bottom: 0;
 }
 .header--heading3 {
-	padding: 0.2em;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
 	text-align: center;
 	width: 80vw;
 }
