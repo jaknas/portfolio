@@ -1,7 +1,7 @@
 # portfolio
 
-Link: https://jakubnaskreski.pl
-===
+# Link: https://jakubnaskreski.pl
+
 v1 upload DONE
 
 - homepage
@@ -24,3 +24,4 @@ v3 upload DONE
 v4 upload TBD
 
 - do a portfolio code overhaul
+- transition to gatsby.js v2
