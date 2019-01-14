@@ -1,219 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Front-End Developer from Poland, Wroclaw - Jakub Naskreski"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <title>Portfolio📌| Jakub Naskręski</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-123368255-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="Front-End Developer from Poland, Wroclaw - Jakub Naskreski">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel='shortcut icon' type='image/x-icon' href='./favicon.ico' />
-  <title>Portfolio📌| Jakub Naskręski </title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123368255-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag('config', 'UA-123368255-1');
+    </script>
+  </head>
 
-    gtag('config', 'UA-123368255-1');
-  </script>
+  <body>
+    <header class="header--image" id="home">
+      <h1 class="header--heading1">
+        Hi <span class="shake">👋</span> I'm
+        <span class="bold">Jakub Naskręski</span>
+      </h1>
+      <h3 class="header--heading3">
+        An ambitious, young <span class="bold">front-end developer</span> with a
+        drive to learn.
+      </h3>
+      <a href="#projects" class="header--button">View my work ➜ </a>
+    </header>
 
-</head>
+    <main class="container">
+      <section id="about">
+        <div class="about--me">
+          <h1 id="about--header" class="header--hover">
+            <span class="bold">About me 👨‍💻</span>
+          </h1>
+          <div class="about--grid">
+            <img
+              src="images/me2.jpeg"
+              id="about--img"
+              class="grayscale"
+              alt="my face"
+            />
+            <p id="about--text1" class="about--text">
+              I'm a self-taught front-end web developer, who loves everything
+              JS: especially React eco-system.
+            </p>
 
-<body>
+            <p id="about--text3" class="about--text">
+              Completely obsessed (in a good way!) with modern web stack and
+              it's ability to create beautiful and functional interfaces. I
+              realize I still have a lot to learn, but I'm open for every
+              possibilty and challenge. Currently studying Electronic and
+              Computer Engineering at Wrocław University of Science and
+              Technology. <span class="bold"></span>
+            </p>
 
-  <header class="header--image" id="home">
-    <h1 class="header--heading1">
-      Hi
-      <span class="shake">👋</span> I'm
-      <span class="bold">Jakub Naskręski</span>
-    </h1>
-    <h3 class="header--heading3">An ambitious, young
-      <span class="bold">front-end developer</span> with a drive to learn. </h3>
-    <a href="#projects" class="header--button">View my work ➜
-    </a>
-  </header>
+            <p id="about--text4" class="about--text">
+              I can code and have hands-on knowledge in:
+              <span class="bold"
+                >HTML5, CSS3, JavaScript(ES6+), React, Redux,</span
+              >
+              Node.js, MongoDB, GIT, Webpack, NPM, jQuery, RWD, Bootstrap 4,
+              Materialize.css.
+            </p>
 
-  <main class="container">
-    <section id="about">
-      <div class="about--me">
-        <h1 id="about--header" class="header--hover">
-          <span class="bold">About me 👨‍💻</span>
+            <p id="about--text5" class="about--text">
+              What I'm focused now on is <span class="bold">React </span>(💗),
+              and in the future I'd love to create native apps (React Native),
+              get familiar with GraphQL, Apollo and explore CSS-in-JS.
+            </p>
+
+            <p id="about--text6" class="about--text">
+              Outside web-dev world my hobbies and are powerlifting, AOSP
+              development, music and sports.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <h1 id="projects--header" class="header--hover">
+          <span class="bold">My projects 💎</span>
         </h1>
-        <div class="about--grid">
-          <img src="images/me2.jpeg" id="about--img" class="grayscale" alt="my face">
-          <p id="about--text1" class="about--text">I'm a self-taught front-end web developer who loves to build things.
-            Currently looking for a Wrocław based company
-            which is searching for a team player who shares similar passion, is commited to explore and learn everyday.
-          </p>
+        <div class="projects--grid">
+          <img
+            src="images/mockup1.png"
+            alt="face recognition app"
+            class="projects--img"
+            id="mock1"
+          />
+          <div class="projects--group">
+            <p id="desc1">
+              App which utilizes an Face Recognition API to look for a face in a
+              user given picture link. Front-End was built using React, also
+              used tachyons for quick styling. Connected with Clarifai API. Sign
+              In and Register forms are placeholders for back-end
+              implementation.
+            </p>
+            <div class="projects--links">
+              <a
+                href="https://github.com/kleyu/faceRecognition-React"
+                class="projects--link"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="icon-github"></i>
+              </a>
+              <a
+                href="https://facerecognition-kleyu.netlify.com/"
+                class="projects--link"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="icon-external-link-square"></i>
+              </a>
+            </div>
+          </div>
 
-
-          <p id="about--text3" class="about--text">
-            Completely obsessed (in a good way!) with modern web stack and it's ability to create beautiful and
-            functional interfaces.
-            I realize I still have a lot to learn, but I'm open for every possibilty and challenge. Currently studying
-            Electronic and Computer Engineering at Wrocław University of Science and Technology.
-            <span class="bold"></span>
-          </p>
-
-          <p id="about--text4" class="about--text">I can code and have hands-on knowledge in:
-            <span class="bold">HTML5, CSS3, JavaScript(ES6+), React, Redux,</span> Node.js, MongoDB, GIT, Webpack, NPM,
-            jQuery, RWD, Bootstrap
-            4, Materialize.css.
-          </p>
-
-          <p id="about--text5" class="about--text">What I'm focused now on is
-            <span class="bold">React </span>(💗), and in the future I'd love to create native apps (React Native), get
-            familiar with GraphQL,
-            Apollo and explore CSS-in-JS.</p>
-
-          <p id="about--text6" class="about--text">Outside web-dev world my hobbies and are powerlifting, AOSP
-            development, music and sports.</p>
-
-        </div>
-      </div>
-    </section>
-    <section id="projects">
-      <h1 id="projects--header" class="header--hover">
-        <span class="bold">My projects 💎</span>
-      </h1>
-      <div class="projects--grid">
-        <img src="images/mockup1.png" alt="face recognition app" class="projects--img" id="mock1">
-        <div class="projects--group">
-          <p id="desc1">App which utilizes an Face Recognition API to look for a face in a user given picture link.
-            Front-End was built
-            using React, also used tachyons for quick styling. Connected with Clarifai API. Sign In and Register forms
-            are
-            placeholders for back-end implementation.
-          </p>
-          <div class="projects--links">
-            <a href="https://github.com/kleyu/faceRecognition-React" class="projects--link" target="_blank" rel="noopener">
-              <i class="icon-github"></i>
-            </a>
-            <a href="https://facerecognition-kleyu.netlify.com/" class="projects--link" target="_blank" rel="noopener">
-              <i class="icon-external-link-square"></i>
-            </a>
+          <img
+            src="images/mockup2.png"
+            alt="react online store"
+            class="projects--img"
+            id="mock2"
+          />
+          <div class="projects--group">
+            <p id="desc2">
+              React Online Store based app utilizing Next.js framework for SSR,
+              Apollo Client for seamless data integration with GraphQL on the
+              backend and styled-components for front-end styling purposes.
+            </p>
+            <div class="projects--links">
+              <a
+                href="https://github.com/kleyu/react-graphql-store"
+                class="projects--link"
+                target="_blank"
+              >
+                <i class="icon-github" rel="noopener"></i>
+              </a>
+              <a
+                href="https://reactstore-react-prod.herokuapp.com/"
+                class="projects--link"
+                target="_blank"
+              >
+                <i class="icon-external-link-square" rel="noopener"></i>
+              </a>
+            </div>
+          </div>
+          <img
+            src="images/mockup3.png"
+            alt="client panel made with react"
+            id="mock3"
+            class="projects--img"
+          />
+          <div class="projects--group">
+            <p id="desc3">
+              <span class="bold">React, Redux and Firebase </span>Client Panel
+              with Authentication and Firebase Store functionality. Styled with
+              Bootstrap, Utilizes CRUD principles, Has implemented React
+              PropTypes, getDerivedStateFromProps (new lifecycle method) and
+              more.
+            </p>
+            <div class="projects--links">
+              <a
+                href="https://github.com/kleyu/clientPanel"
+                class="projects--link"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="icon-github"></i>
+              </a>
+              <a
+                href="https://client-panel-react.firebaseapp.com/"
+                class="projects--link"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="icon-external-link-square"></i>
+              </a>
+            </div>
+          </div>
+          <img
+            src="images/mockup6.png"
+            alt="react pokedex"
+            class="projects--img"
+            id="mock6"
+          />
+          <div class="projects--group">
+            <p id="desc6">
+              Project made as a recruitment task for a software house. Based on
+              React, Redux (thunk for async actions) and local json-server for
+              pokedex fetching. It has also Bootstrap 4 with react-strap for
+              styling. I've also added some
+              <span class="bold"
+                >unit tests with Jest and react-testing-library</span
+              >. This project also proves my ability to work within
+              <span class="bold">Git Flow enviroment</span> (feature, develop
+              branches with full history on github) and ES-lint configuration
+              setup.
+            </p>
+            <div class="projects--links">
+              <a
+                href="https://github.com/kleyu/reactPokemon"
+                class="projects--link"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="icon-github"></i>
+              </a>
+            </div>
+          </div>
+          <img
+            src="images/mockup4.png"
+            alt="react contact manager"
+            class="projects--img"
+            id="mock4"
+          />
+          <div class="projects--group">
+            <p id="desc4">
+              React contact manager. I've implemented
+              <span class="bold">React Router</span>, Context API (Redux on
+              second branch), <span class="bold">axios</span> for external API
+              fetching, async/await. Also has CRUD functionality with mock API.
+            </p>
+            <div class="projects--links">
+              <a
+                href="https://github.com/kleyu/contactManager"
+                class="projects--link"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="icon-github"></i>
+              </a>
+              <a
+                href="https://contactmanager.netlify.com/"
+                class="projects--link"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="icon-external-link-square"></i>
+              </a>
+            </div>
+          </div>
+          <img
+            src="images/mockup5.png"
+            alt="blog app"
+            class="projects--img"
+            id="mock5"
+          />
+          <div class="projects--group">
+            <p id="desc5">
+              Blog created with
+              <span class="bold">Node.js, express.js, MongoDB</span> with REST
+              and CRUD principles. Styled with Semantic UI library with EJS as a
+              templating language for data.
+            </p>
+            <div class="projects--links">
+              <a
+                href="https://github.com/kleyu/kleyu.github.io/tree/master/blogApp"
+                class="projects--link"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="icon-github"></i>
+              </a>
+              <a
+                href="https://blogapp-rigzkkdllt.now.sh/blogs"
+                class="projects--link"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="icon-external-link-square"></i>
+              </a>
+            </div>
+          </div>
+          <img
+            src="images/mockup7.png"
+            alt="fitness exercises"
+            class="projects--img"
+            id="mock7"
+          />
+          <div class="projects--group">
+            <p id="desc7">
+              Fitness Exercises CRUD app created using
+              <span class="bold">React, Material-UI, Context API</span> with
+              data from local store. Included heavy client-based logic with
+              sorting, grouping etc.
+            </p>
+            <div class="projects--links">
+              <a
+                href="https://github.com/kleyu/fitnessExercises"
+                class="projects--link"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="icon-github"></i>
+              </a>
+              <a
+                href="https://fitness-exercises.netlify.com/"
+                class="projects--link"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="icon-external-link-square"></i>
+              </a>
+            </div>
           </div>
         </div>
+      </section>
 
-        <img src="images/mockup2.png" alt="react chat app" class="projects--img" id="mock2">
-        <div class="projects--group">
-          <p id="desc2">React based live chat app, utilizes CSS Grid for styling and is connected with back-end to
-            receive data from pusher API.</p>
-          <div class="projects--links">
-            <a href="https://github.com/kleyu/reactChat" class="projects--link" target="_blank">
-              <i class="icon-github" rel="noopener"></i>
-            </a>
-            <a href="https://reactchat.netlify.com/" class="projects--link" target="_blank">
-              <i class="icon-external-link-square" rel="noopener"></i>
-            </a>
-          </div>
+      <footer id="contact">
+        <h1 id="contact--header" class="header--hover">
+          <span class="bold">Contact me 📨</span>
+        </h1>
+        <div class="contact--links">
+          <a
+            href="https://github.com/kleyu"
+            class="contact--atag"
+            rel="noopener"
+          >
+            <i class="icon-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jakub-naskreski"
+            class="contact--atag"
+            rel="noopener"
+          >
+            <i class="icon-linkedin"></i>
+          </a>
+          <a
+            href="mailto:jakub.naskreski@gmail.com"
+            class="contact--atag"
+            rel="noopener"
+          >
+            <i class="icon-at"></i>
+          </a>
         </div>
-        <img src="images/mockup3.png" alt="client panel made with react" id="mock3" class="projects--img">
-        <div class="projects--group">
-          <p id="desc3">
-            <span class="bold">React, Redux and Firebase </span>Client Panel with Authentication and Firebase Store
-            functionality. Styled with
-            Bootstrap, Utilizes CRUD principles, Has implemented React PropTypes, getDerivedStateFromProps (new
-            lifecycle
-            method) and more.</p>
-          <div class="projects--links">
-            <a href="https://github.com/kleyu/clientPanel" class="projects--link" target="_blank" rel="noopener">
-              <i class="icon-github"></i>
-            </a>
-            <a href="https://client-panel-react.firebaseapp.com/" class="projects--link" target="_blank" rel="noopener">
-              <i class="icon-external-link-square"></i>
-            </a>
-          </div>
-        </div>
-        <img src="images/mockup6.png" alt="react pokedex" class="projects--img" id="mock6">
-        <div class="projects--group">
-          <p id="desc6">
-            Project made as a recruitment task for a software house. Based on React, Redux (thunk for async actions)
-            and
-            local json-server for pokedex fetching. It has also Bootstrap 4 with react-strap for styling. I've also
-            added
-            some
-            <span class="bold">unit tests with Jest and react-testing-library</span>. This project also proves my
-            ability to work within <span class="bold">Git Flow
-              enviroment</span> (feature, develop branches with full history on github) and ES-lint configuration
-            setup.
-          </p>
-          <div class="projects--links">
-            <a href="https://github.com/kleyu/reactPokemon" class="projects--link" target="_blank" rel="noopener">
-              <i class="icon-github"></i>
-            </a>
-          </div>
-        </div>
-        <img src="images/mockup4.png" alt="react contact manager" class="projects--img" id="mock4">
-        <div class="projects--group">
-          <p id="desc4">React contact manager. I've implemented <span class="bold">React Router</span>, Context API
-            (Redux on second branch),
-            <span class="bold">axios</span> for external
-            API fetching, async/await. Also has CRUD functionality with mock API.</p>
-          <div class="projects--links">
-            <a href="https://github.com/kleyu/contactManager" class="projects--link" target="_blank" rel="noopener">
-              <i class="icon-github"></i>
-            </a>
-            <a href="https://contactmanager.netlify.com/" class="projects--link" target="_blank" rel="noopener">
-              <i class="icon-external-link-square"></i>
-            </a>
-          </div>
-        </div>
-        <img src="images/mockup5.png" alt="blog app" class="projects--img" id="mock5">
-        <div class="projects--group">
-          <p id="desc5">Blog created with <span class="bold">Node.js, express.js, MongoDB</span> with REST and CRUD
-            principles. Styled with
-            Semantic UI library with EJS as a templating language for data.</p>
-          <div class="projects--links">
-            <a href="https://github.com/kleyu/kleyu.github.io/tree/master/blogApp" class="projects--link" target="_blank"
-              rel="noopener">
-              <i class="icon-github"></i>
-            </a>
-            <a href="https://blogapp-rigzkkdllt.now.sh/blogs" class="projects--link" target="_blank" rel="noopener">
-              <i class="icon-external-link-square"></i>
-            </a>
-          </div>
-        </div>
-        <img src="images/mockup7.png" alt="fitness exercises" class="projects--img" id="mock7">
-        <div class="projects--group">
-          <p id="desc7">Fitness Exercises CRUD app created using <span class="bold">React, Material-UI, Context API</span>
-            with data from local
-            store. Included heavy client-based logic with sorting, grouping etc.</p>
-          <div class="projects--links">
-            <a href="https://github.com/kleyu/fitnessExercises" class="projects--link" target="_blank" rel="noopener">
-              <i class="icon-github"></i>
-            </a>
-            <a href="https://fitness-exercises.netlify.com/" class="projects--link" target="_blank" rel="noopener">
-              <i class="icon-external-link-square"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer id="contact">
-      <h1 id="contact--header" class="header--hover">
-        <span class="bold">Contact me 📨</span>
-      </h1>
-      <div class="contact--links">
-        <a href="https://github.com/kleyu" class="contact--atag" rel="noopener">
-          <i class="icon-github"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/jakub-naskreski" class="contact--atag" rel="noopener">
-          <i class="icon-linkedin"></i>
-        </a>
-        <a href="mailto:jakub.naskreski@gmail.com" class="contact--atag" rel="noopener">
-          <i class="icon-at"></i>
-        </a>
-      </div>
-    </footer>
-
-  </main>
-  <script src="js/zenscroll-min.js"></script>
-  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-  <script src="js/scripts.js"></script>
-</body>
-
+      </footer>
+    </main>
+    <script src="js/zenscroll-min.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
