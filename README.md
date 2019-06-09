@@ -1,6 +1,6 @@
 # portfolio
 
-# Link: https://jakubnaskreski.pl
+# Link: https://jakubnaskreski.pl or [netlify](jakubnaskreski.netlify.com)
 
 v1 upload DONE
 
